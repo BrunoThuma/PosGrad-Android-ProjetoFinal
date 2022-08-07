@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.AdicionarProdutoActivity"
+    android:background="@color/myBackgroundBlack">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Produto: "
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/produtoEditTextNomeProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ultimo preco praticado: "
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"/>
+
+            <EditText
+                android:id="@+id/produtoEditTextUltimoPreco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/produtoBtnSalvar"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Salvar"/>
+
+            <Button
+                android:id="@+id/produtoBtnCancelar"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Cancelar"
+                android:layout_marginLeft="10dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>

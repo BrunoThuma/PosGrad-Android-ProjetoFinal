@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layoutCelula"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/txtProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Item"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFB742"/>
+
+    <TextView
+        android:id="@+id/txtUltimoPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ultimo preço praticado: "
+        android:layout_marginBottom="5dp"
+        android:textColor="#FFFFFF"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFD700"/>
+
+</LinearLayout>
