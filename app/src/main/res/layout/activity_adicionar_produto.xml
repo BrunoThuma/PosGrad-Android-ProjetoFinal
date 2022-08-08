@@ -23,12 +23,14 @@
                 android:layout_height="wrap_content"
                 android:text="Produto: "
                 android:textSize="20sp"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"/>
 
             <EditText
                 android:id="@+id/produtoEditTextNomeProduto"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"/>
         </LinearLayout>
 
         <LinearLayout
@@ -42,13 +44,15 @@
                 android:layout_height="wrap_content"
                 android:text="Ultimo preco praticado: "
                 android:textSize="20sp"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginRight="10dp"
+                android:textColor="#FFFFFF"/>
 
             <EditText
                 android:id="@+id/produtoEditTextUltimoPreco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="numberDecimal"/>
+                android:inputType="numberDecimal"
+                android:textColor="#FFFFFF"/>
         </LinearLayout>
 
         <LinearLayout
